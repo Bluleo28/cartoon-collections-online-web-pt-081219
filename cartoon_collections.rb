@@ -7,7 +7,6 @@ def summon_captain_planet(veggies)
     veggies.collect do |call|
     call.capatalize + "!"
   end
-
 end
 
 def long_planeteer_calls(long_planeteer_calls)
