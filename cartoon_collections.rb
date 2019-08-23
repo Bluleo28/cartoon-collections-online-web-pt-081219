@@ -10,8 +10,8 @@ def summon_captain_planet(array)
        nu_array << array[i]
        .capitalize + "!"
        i += 1 
-      nu_array
   end
+  nu_array
 end
       
  summon_captain_planet
