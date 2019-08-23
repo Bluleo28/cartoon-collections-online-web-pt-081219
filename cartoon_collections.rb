@@ -18,16 +18,14 @@ end
     (planateer_calls)
 
 def long_planeteer_calls(array)
-      i - 0
-      if array.any? {|i|
+        i - 0
+        if array.any? {|i|
         i.length > 4}
         return false 
         i = i + 1 
   end 
 end
 
-long_planeteer_calls
-(call_screams)
 def find_the_cheese(cheese)
     cheese_types = ["cheddar", "gouda", "camembert"]
     cheese.find do |cheese|
