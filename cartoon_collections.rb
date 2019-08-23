@@ -14,6 +14,7 @@ def summon_captain_planet(veggies)
       veggies.each do |call|
       call.capitalize!  "carrot"
   end
+  result = summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(long_planeteer_calls)
