@@ -6,6 +6,7 @@ end
 def summon_captain_planet(veggies)
   veggies.collect do |call|
   call.capatalize + "!"
+  result = summon_captain_planet
   end
 end
 
