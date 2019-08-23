@@ -5,13 +5,13 @@ def roll_call_dwarves(dwarfs)
 end
 def summon_captain_planet(veggies)
   veggies.collect do |call|
-   call.capatalize! + "carrot"
+   call.capitalize! + "carrot"
   # result = summon_captain_planet(veggies)
   end
 end
 def summon_captain_planet(fruits)
   fruits.collect do |call|
-    call.capatalize! + "apple"
+    call.capitalize! + "apple"
     # result = summon_captain_planet(fruits)
   end
 end
