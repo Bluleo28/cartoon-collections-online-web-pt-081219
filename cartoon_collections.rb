@@ -3,17 +3,19 @@ def roll_call_dwarves(dwarfs)
     puts "#{index +1} #{name}"
   end
 end
-def summon_captain_planet(fruits)
-       fruits.each do |call|
-      call.capitalize! "apple"
+def summon_captain_planet(array)
+       nu_array = []
+       i = 0 
+       while i < array.length 
+       nu_array <<[i]
+       .capitalize + "!"
+       i += 1 
+      nu_array
   end
 end
       
-def summon_captain_planet(veggies)
-       veggies.each do |call|
-      call.capitalize!  "carrot"
-  end
-end
+ summon_captain_planet
+    (planateer_calls)
 
 def long_planeteer_calls(long_planeteer_calls)
       answer = false 
