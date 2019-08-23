@@ -6,6 +6,7 @@ end
 def summon_captain_planet(veggies)
   veggies.each do |call|
    call.capitalize!  "carrot"
+    summon_captain_planet << "veggies"
   end
 end
 def summon_captain_planet(fruits)
