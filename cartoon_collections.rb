@@ -6,15 +6,15 @@ end
 def summon_captain_planet(fruits)
       fruits.each do |call|
       call.capitalize! "apple" 
+      result = summon_captain_planet(fruits)
   end
-  test 1  summon_captain_planet(fruits)
 end
       
 def summon_captain_planet(veggies)
       veggies.each do |call|
       call.capitalize!  "carrot"
+      result = summon_captain_planet(veggies)
   end
-  test 2  summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(long_planeteer_calls)
