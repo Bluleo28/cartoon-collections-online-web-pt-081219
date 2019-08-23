@@ -4,16 +4,14 @@ def roll_call_dwarves(dwarfs)
   end
 end
 def summon_captain_planet(fruits)
-      fruits.each do |call|
-      call.capitalize! "apple" 
-      return  summon_captain_planet(fruits)
+      return fruits.each do |call|
+      call.capitalize! "apple"
   end
 end
       
 def summon_captain_planet(veggies)
-      veggies.each do |call|
+      return veggies.each do |call|
       call.capitalize!  "carrot"
-      return  summon_captain_planet(veggies)
   end
 end
 
