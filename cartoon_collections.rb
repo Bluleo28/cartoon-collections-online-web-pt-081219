@@ -13,6 +13,8 @@ def summon_captain_planet(fruits)
   fruits.collect do |call|
     call.capatalize + "!"
     # result = summon_captain_planet(fruits)
+  end
+end
 
 def long_planeteer_calls(long_planeteer_calls)
       answer = false 
