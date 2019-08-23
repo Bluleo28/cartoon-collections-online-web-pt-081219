@@ -14,8 +14,6 @@ def summon_captain_planet(veggies)
       call.capitalize!  "carrot"
   end
 end
-  end
-end
 
 def long_planeteer_calls(long_planeteer_calls)
       answer = false 
